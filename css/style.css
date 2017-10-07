@@ -1,0 +1,146 @@
+*{
+	transition: all .1s ease-in;
+	list-style-type: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body,html {
+	min-height: 100%;
+}
+
+body {
+	background-color: #3A3F46;
+	margin: 0 auto;
+	border: 10px solid #fff;
+}
+
+.ba-header {
+	background-color: #494F57;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.ba-header > h1, 
+.ba-header > h4 {
+ 	color: #F97578;
+ 	text-align: center;
+ 	font-family: sans-serif;
+}
+
+ h4 {
+ 	font-weight: 100;
+ 	font-size: 20px;
+ 	margin: 0;
+ }
+
+.ba-container {
+	max-width: 60%;
+	background-color: #7a7593;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.ba-container label {
+	display: block;
+ 	cursor: pointer;
+ 	padding: 15px;
+ 	border-top: 4px solid #fff;
+ 	border-top: 4px solid #fff;
+ 	border-color: transparent;
+
+}
+
+.ba-container label:hover {
+	background-color: #645C79;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+
+}
+.ba-container label:active {
+	background-color: #F97578;
+
+}
+
+.ba-container input {
+	margin-right: 10px;	
+	cursor: pointer;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance:none;
+}
+
+.ba-container [type="checkbox"] {
+	display: none;
+
+}
+.ba-container label:before {
+	content: '';
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin-right: 10px;
+	border: 2px solid #fff;
+}
+.ba-container [type="checkbox"]:checked + label:before{ 
+	 	background: url(../like.png);
+	 	background-size: contain;
+
+
+}
+
+.ba-container span {
+	font-size: 20px;
+	color: #fff;
+	font-family: Arial;
+}
+
+.ba-description:before { content: " ( " }
+.ba-description:after { content: " ) " }
+
+.ba-description {
+	font-size: 14px;
+	font-family: Trebuchet MS;
+	color: #BABFD4;
+}
+
+.ba-container li:nth-child(2n) {
+	background-color: #8A80A0;
+}
+
+.ba-container [type="checkbox"]:checked + label span{
+	text-decoration: line-through;
+	color: #A3A0B5;
+}
+
+.ba-container [type="checkbox"]:checked + label span small{
+	text-decoration: line-through;
+	color: #A3A0B5;
+}
+
+
+footer {
+	margin-top: 30px;
+}
+.futerok{
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 15px;
+	vertical-align: inherit;
+	text-align: center;
+	background-color: #494F57;
+	font-size: 25px;
+	color: #F97578;
+	font-family: Trebuchet, sans-serif;
+	font-weight: 100;
+
+}
+
